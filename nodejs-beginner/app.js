@@ -296,7 +296,7 @@ app.use(express.static('public'));
 app.get('/',(req, res) => {
   //render file index.hbs
   res.render('index',{
-    name : "M Fikri"
+    name : "Yusup Aripin"
   });
 });
  
